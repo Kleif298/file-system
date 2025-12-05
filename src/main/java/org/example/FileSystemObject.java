@@ -12,7 +12,6 @@ public abstract class FileSystemObject implements Comparable<FileSystemObject> {
         return name;
     }
 
-    // Wird von File & Directory überschrieben
     public abstract int getSize();
 
     public abstract void print(String indent);
