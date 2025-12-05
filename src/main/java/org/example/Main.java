@@ -10,6 +10,7 @@ public class Main {
         File f1 = new File("bild1.png", 350);
         File f2 = new File("bild2.png", 420);
         File f3 = new File("dokument.txt", 50);
+        File f4 = new File("dokument.txt", 50);
 
         images.add(f1);
         images.add(f2);

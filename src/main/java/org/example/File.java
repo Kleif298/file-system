@@ -13,5 +13,11 @@ public class File extends FileSystemObject implements Sizable {
     public int getSize() {
         return size;
     }
+
+    @Override
+    public void print(String indent) {
+        // Gibt die Datei mit der aktuellen Einrückung aus.
+        System.out.println(indent + "📄 " + toString());
+    }
 }
 

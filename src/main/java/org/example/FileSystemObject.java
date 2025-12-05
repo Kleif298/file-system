@@ -15,6 +15,8 @@ public abstract class FileSystemObject implements Comparable<FileSystemObject> {
     // Wird von File & Directory überschrieben
     public abstract int getSize();
 
+    public abstract void print(String indent);
+
     @Override
     public int compareTo(FileSystemObject other) {
         return this.name.compareToIgnoreCase(other.name);
